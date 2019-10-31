@@ -26,7 +26,7 @@ require_once("mysqlConnection.php");
                 <input id="button" type="submit" value="Lisää uusi">
             </form>
           <div id="table">
-          <table style="width:80%">
+          <table style="width:90%">
             <tr>
               <th class="left">Päivä</th>
               <th class="center">Oivallus</th> 
