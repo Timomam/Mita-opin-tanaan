@@ -1,3 +1,9 @@
+<?php
+
+require_once("mysqlConnection.php");
+
+?>
+
 <!DOCTYPE html>
 <html>
     
@@ -15,10 +21,10 @@
             <h1>Mitä opin tänään</h1>
         </header>
         <div id="container">
-        <form>
-            <input id="field" type="text">
-            <input id="button" type="button" value="Lisää uusi">
-          </form>
+        <form action="lisaa_oivallus.php" method="post">
+                <input type="text" name="lisaa_uusi_oivallus"></input>
+                <input type="submit" value="Lisää uusi">
+            </form>
           <div id="table">
           <table style="width:80%">
             <tr>
@@ -26,11 +32,15 @@
               <th class="center">Oivallus</th> 
               <th class="right">Poista</th>
             </tr>
-            <tr>
-                <td>31.10.2019</td>
-                <td>https://github.com/Timomam/Mita-opin-tanaan</td>
-                <td><input type="button" value="X"></td>
-            </tr>
+            <tbody>
+
+<?php
+
+include("listaa_oivallus.php");
+
+?>
+
+                </tbody>
           </table>
         </div>
       </div>
