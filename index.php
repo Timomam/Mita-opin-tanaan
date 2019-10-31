@@ -18,7 +18,7 @@ require_once("mysqlConnection.php");
 
     <body>
         <header>
-            <h1>Mitä opin tänään</h1>
+            <h1>Mitä opin tänään?</h1>
         </header>
         <div id="container">
         <form action="lisaa_oivallus.php" method="post">
