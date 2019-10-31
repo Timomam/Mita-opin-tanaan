@@ -28,7 +28,7 @@ require_once("mysqlConnection.php");
           <div id="table">
           <table style="width:90%">
             <tr>
-              <th class="left">Päivä</th>
+              <th class="left">Pvm</th>
               <th class="center">Tuote</th> 
               <th class="right">Poista</th>
             </tr>
