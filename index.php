@@ -29,7 +29,7 @@ require_once("mysqlConnection.php");
           <table style="width:90%">
             <tr>
               <th class="left">Päivä</th>
-              <th class="center">Oivallus</th> 
+              <th class="center">Tuote</th> 
               <th class="right">Poista</th>
             </tr>
             <tbody>
