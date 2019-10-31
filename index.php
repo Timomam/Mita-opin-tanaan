@@ -7,7 +7,7 @@
         <meta lang="en"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <title>Mitä opin tänään</title>
+        <title>Mitä opin tänään?</title>
     </head>
 
     <body>
@@ -35,7 +35,7 @@
         </div>
       </div>
           <footer>
-            Copyright 2019 Lorem Ipsum
+            Copyright 2019 Timo M
           </footer>
     </body>
 
