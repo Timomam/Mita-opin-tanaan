@@ -22,8 +22,8 @@ require_once("mysqlConnection.php");
         </header>
         <div id="container">
         <form action="lisaa_oivallus.php" method="post">
-                <input type="text" name="lisaa_uusi_oivallus"></input>
-                <input type="submit" value="Lisää uusi">
+                <input id="field" type="text" name="lisaa_uusi_oivallus"></input>
+                <input id="button" type="submit" value="Lisää uusi">
             </form>
           <div id="table">
           <table style="width:80%">
