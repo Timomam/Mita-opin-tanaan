@@ -1,0 +1,87 @@
+html {
+    background-color: black;
+}
+
+body {
+    background-color: rgb(71, 71, 71);
+    max-width: 1400px;
+    margin: auto;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgb(44, 44, 44);
+    color: rgb(199, 199, 199);
+    text-align: center;
+    padding: 20px;
+    max-width: 1400px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#field {
+    height: 34px;
+    width: 300px;
+}
+
+#button {
+    height: 40px;
+    margin-left: 5px;
+}
+
+#table {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-radius: 2px;
+    margin-top: 30px;
+}
+
+table th {
+    font-size: 16px;
+    background-color: rgb(126, 126, 126);
+    padding: 10px;
+    height: 20px;
+    text-align: left;
+}
+
+table td {
+    padding: 8px;
+    text-align: left;
+    background-color: rgb(22, 22, 22);
+    color: rgb(216, 216, 216);
+}
+
+footer {
+    margin-top: 100px;
+    background-color: rgb(44, 44, 44);
+    color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+.left {
+    width: 35px;
+}
+
+.center {
+}
+
+.right {
+    width: 40px;
+}
