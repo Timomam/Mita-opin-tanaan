@@ -45,7 +45,6 @@ include("listaa_oivallus.php");
         </div>
       </div>
           <footer>
-            Copyright 2019 Timo M
           </footer>
     </body>
 
