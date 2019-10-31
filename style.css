@@ -59,6 +59,7 @@ table th {
 }
 
 table td {
+    text-decoration: none;
     padding: 8px;
     text-align: left;
     background-color: rgb(22, 22, 22);
