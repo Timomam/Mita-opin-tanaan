@@ -48,6 +48,10 @@ form {
     border-radius: 3px;
 }
 
+#button:hover {
+    background-color: darkgrey;   
+}
+
 #table {
     display:flex;
     align-items: center;
