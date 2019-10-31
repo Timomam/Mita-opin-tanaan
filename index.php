@@ -13,12 +13,12 @@ require_once("mysqlConnection.php");
         <meta lang="en"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-        <title>Mitä opin tänään?</title>
+        <title>Kauppalista</title>
     </head>
 
     <body>
         <header>
-            <h1>Mitä opin tänään?</h1>
+            <h1>Kauppalista</h1>
         </header>
         <div id="container">
         <form action="lisaa_oivallus.php" method="post">
